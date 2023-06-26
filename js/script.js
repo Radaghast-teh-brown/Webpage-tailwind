@@ -9,7 +9,7 @@ function formSubmit(e) {
 
     if(input.value === '') {
         errMsg.innerHTML = 'Please enter something';
-        input.classList.add('bg-black');
+        input.classList.add();
     }
 
 }
